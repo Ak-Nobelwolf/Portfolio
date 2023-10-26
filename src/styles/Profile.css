@@ -1,0 +1,36 @@
+#profile {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px 0;
+  }
+
+  #profile h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  #profile p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+  }
+
+  /* Example styles for highlighting important words */
+  #profile strong {
+    color: #007bff; /* Blue color for strong elements */
+  }
+
+  /* Example styles for links */
+  #profile a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+    border-bottom: 1px dotted #007bff; /* Underline with dots on hover */
+    transition: border-bottom 0.3s ease;
+  }
+
+  #profile a:hover {
+    border-bottom: 1px solid #007bff; /* Solid underline on hover */
+  }

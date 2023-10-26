@@ -1,0 +1,51 @@
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contact-details,
+.social-media {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.social-media {
+  text-align: right;
+}
+
+.contact-details ul,
+.social-media ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-details li,
+.social-media li {
+  margin: 10px 0;
+}
+
+.social-media i {
+  font-size: 24px;
+  margin-right: 65px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
