@@ -1,0 +1,81 @@
+/* Contact.css */
+.contact {
+  position: relative;
+  width: 100%;
+  min-height: 100vh; /* Use min-height to ensure the content fills the screen */
+  background: linear-gradient(to right, #3494e6, #ec6ead);
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 1.2rem;
+}
+
+.contact-content {
+  max-width: 900px;
+  width: 90%;
+}
+
+.contact-details,
+.social-media {
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-details ul,
+.social-media ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-details li,
+.social-media li {
+  margin: 10px 0;
+}
+
+.social-media i {
+  font-size: 24px;
+  color: white;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: #30aee9;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 50px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #007bff;
+}
+
+/* Media query for smaller screens (adjust as needed) */
+@media (max-width: 768px) {
+  .contact-content {
+    width: 100%;
+  }
+
+  .contact-details,
+  .social-media {
+    padding: 10px;
+  }
+
+  .social-media i {
+    font-size: 20px;
+  }
+}
+
+

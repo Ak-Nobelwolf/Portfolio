@@ -3,6 +3,8 @@ body, html {
     padding: 0;
   }
 
-  /* body {
-    overflow: hidden;
-  } */
+  @media (min-width: 769px) {
+    body {
+      overflow: hidden;
+    }
+  }

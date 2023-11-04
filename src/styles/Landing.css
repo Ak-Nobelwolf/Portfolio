@@ -1,4 +1,5 @@
 .landing {
+  position: relative;
   width: 100vw;
   height: 100vh;
   background: linear-gradient(to right, #3494e6, #ec6ead);
@@ -14,6 +15,7 @@
   align-items: center;
   flex-wrap: wrap;
   width: 100%; /* Take full width */
+  position: relative;
 }
 
 .intro {
@@ -28,8 +30,9 @@
   font-size: 2.5rem;
 }
 
-.intro p {
-  font-size: 1.5rem;
+.position {
+  font-size: 1.6rem;
+  font-weight:bold;
 }
 
 .image img {
@@ -40,4 +43,10 @@
   display: block;
   margin: 0 auto;
 }
-
+.profile-content {
+  font-size: 1.4rem;
+  text-align: justify;
+  line-height: 1.6;
+  color: white; /* Change the color to your preference */
+  padding: 0 250px; /* Add some padding for better readability */
+}
