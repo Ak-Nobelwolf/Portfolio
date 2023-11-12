@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import "../styles/Sidebar.css";
+import React, { useState } from 'react';
+import '../styles/Sidebar.css';
 
-function Sidebar() {
+function Sidebar({ onLinkClick }) {
   const [isSidebarActive, setSidebarActive] = useState(false);
 
   const handleSidebarHover = () => {
@@ -14,36 +13,18 @@ function Sidebar() {
   };
 
   return (
-    <div
-      className={`sidebar ${isSidebarActive ? "active" : ""}`}
-      onMouseEnter={handleSidebarHover}
-      onMouseLeave={handleSidebarLeave}
-    >
+    <div className={`sidebar ${isSidebarActive ? "active" : ""}`}
+    onMouseEnter={handleSidebarHover}
+    onMouseLeave={handleSidebarLeave}>
       <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/experience">Experience</Link>
-        </li>
-        <li>
-          <Link to="/techstack">TechStack</Link>
-        </li>
-        <li>
-          <Link to="/projects">Projects</Link>
-        </li>
-        <li>
-          <Link to="/publications">Publications</Link>
-        </li>
-        <li>
-          <Link to="/awards">Awards</Link>
-        </li>
-        <li>
-          <Link to="/certificates">Certificates</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
+        <li onClick={() => onLinkClick('landing')}>Home</li>
+        <li onClick={() => onLinkClick('experience')}>Experience</li>
+        <li onClick={() => onLinkClick('techstack')}>TechStack</li>
+        <li onClick={() => onLinkClick('projects')}>Projects</li>
+        <li onClick={() => onLinkClick('publications')}>Publications</li>
+        <li onClick={() => onLinkClick('awards')}>Awards</li>
+        <li onClick={() => onLinkClick('certificates')}>Certificates</li>
+        <li onClick={() => onLinkClick('contact')}>Contact</li>
       </ul>
     </div>
   );

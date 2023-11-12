@@ -1,30 +1,32 @@
-/* Sidebar styles for overlay effect */
+/* Sidebar.css */
 .sidebar {
   position: fixed;
   top: 0;
   right: -200px; /* Start with the sidebar hidden */
   width: 250px;
   background: linear-gradient(to right, #ec6ead, #3494e6);
-  color: black;
+  color: white;
   display: flex;
-  flex-direction: column; /* Stack links vertically */
-  align-items: center; /* Center links horizontally */
-  height: 100vh; /* Make the sidebar full height */
-  z-index: 1; /* Ensure the sidebar appears on top of the landing page */
-  transition: right 0.3s; /* Add a transition for smooth sliding */
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  z-index: 1;
+  transition: right 0.3s;
 }
 
 .sidebar.active {
-  right: 0; /* Show the sidebar when it's active */
+  right: 0;
 }
+
 .sidebar ul {
   list-style: none;
   padding: 0;
-  margin-top: calc((100vh - 15rem) / 2); /* Center the sidebar vertically */
+  margin-top: calc((100vh - 15rem) / 2);
 }
 
 .sidebar li {
-  margin: 10px 0; /* Adjust this value to your preference */
+  margin: 10px 0;
+  cursor: pointer;
 }
 
 .sidebar a {
@@ -42,12 +44,12 @@
 
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
-  .sidebar {
-    width: 100%; /* Make the sidebar full width on small screens */
-    right: -100%; /* Hide the sidebar off the screen by default */
-  }
+  /* .sidebar {
+    width: 100%;
+    right: -100%;
+  } */
 
   .sidebar.active {
-    right: 0; /* Show the sidebar when it's active */
+    right: 0;
   }
 }

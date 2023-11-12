@@ -1,6 +1,4 @@
-import React from 'react';
-import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React, { useState } from 'react';
 import Landing from './components/Landing';
 import Experience from './components/Experience';
 import TechStack from './components/TechStack';
@@ -9,21 +7,45 @@ import Publications from './components/Publications';
 import Awards from './components/Awards';
 import Certificates from './components/Certificates';
 import Contact from './components/Contact';
+import Sidebar from './components/Sidebar';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('landing');
+
+  const renderPage = () => {
+    switch (currentPage) {
+      case 'landing':
+        return <Landing />;
+      case 'experience':
+        return <Experience />;
+      case 'techstack':
+        return <TechStack />;
+      case 'projects':
+        return <Projects />;
+      case 'publications':
+        return <Publications />;
+      case 'awards':
+        return <Awards />;
+      case 'certificates':
+        return <Certificates />;
+      case 'contact':
+        return <Contact />;
+      default:
+        return null;
+    }
+  };
+
+  const handleLinkClick = (page) => {
+    setCurrentPage(page);
+  };
+
   return (
-    <Router>
-        <Routes>
-          <Route exact path="/" element={<Landing />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/techstack" element={<TechStack />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/publications" element={<Publications />} />
-          <Route path="/awards" element={<Awards />} />
-          <Route path="/certificates" element={<Certificates />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-    </Router>
+    <div className="app">
+      <Sidebar onLinkClick={handleLinkClick} />
+      <div className="content">
+        {renderPage()}
+      </div>
+    </div>
   );
 }
 

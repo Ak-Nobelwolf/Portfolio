@@ -1,6 +1,5 @@
 import React from "react";
-import "../styles/Certificates.css"; // Import the CSS file
-import Sidebar from "./Sidebar";
+import "../styles/Certificates.css";
 import Certificate0 from "../images/certificates/HTML, CSS, and Javascript for Web Developers.jpeg";
 import Certificate1 from "../images/certificates/01- Introduction to Front-End Development.jpeg";
 import Certificate2 from "../images/certificates/02 - Programming with JavaScript.jpeg";
@@ -16,7 +15,6 @@ import Certificate10 from "../images/certificates/OCI Foundations Associate_1Z0-
 function Certificates() {
   return (
     <div>
-      <Sidebar />
       <section className="certificates">
         <h2>Certificates</h2>
         <div className="certificate-cards">
