@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Ak-Nobelwolf/Portfolio/static/css/main.31db6296.css",
+    "main.js": "/Ak-Nobelwolf/Portfolio/static/js/main.9e264258.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Ak-Nobelwolf/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/01- Introduction to Front-End Development.jpeg": "/Ak-Nobelwolf/Portfolio/static/media/01- Introduction to Front-End Development.910846f1e5c6b64e1ec9.jpeg",
+    "static/media/02 - Programming with JavaScript.jpeg": "/Ak-Nobelwolf/Portfolio/static/media/02 - Programming with JavaScript.ee302b00d9846284e49d.jpeg",
+    "static/media/08 - Front-End Developer Capstone.jpeg": "/Ak-Nobelwolf/Portfolio/static/media/08 - Front-End Developer Capstone.eba9d1be19a4b0229c6a.jpeg",
+    "static/media/09 - Coding Interview Preparations.jpeg": "/Ak-Nobelwolf/Portfolio/static/media/09 - Coding Interview Preparations.dbe71ca56037d7e0b106.jpeg",
+    "static/media/07 - Principles of UX UI Design.jpeg": "/Ak-Nobelwolf/Portfolio/static/media/07 - Principles of UX UI Design.5fef6c1528a84b5d4781.jpeg",
+    "static/media/04 - HTML and CSS in depth.jpeg": "/Ak-Nobelwolf/Portfolio/static/media/04 - HTML and CSS in depth.362e6ab305048928287f.jpeg",
+    "static/media/03 - Version Control.jpeg": "/Ak-Nobelwolf/Portfolio/static/media/03 - Version Control.a286a4e7cf7def768f76.jpeg",
+    "static/media/06 - Advanced React.jpeg": "/Ak-Nobelwolf/Portfolio/static/media/06 - Advanced React.6bc926b6740ea14fbbde.jpeg",
+    "static/media/HTML, CSS, and Javascript for Web Developers.jpeg": "/Ak-Nobelwolf/Portfolio/static/media/HTML, CSS, and Javascript for Web Developers.ec7bcc990eb402092543.jpeg",
+    "static/media/05 - React Basics.jpeg": "/Ak-Nobelwolf/Portfolio/static/media/05 - React Basics.b5787ce07af2e66291e3.jpeg",
+    "static/media/Profile.png": "/Ak-Nobelwolf/Portfolio/static/media/Profile.e73597256be4e1e48a69.png",
+    "static/media/OCI Foundations Associate_1Z0-1085-23.jpg": "/Ak-Nobelwolf/Portfolio/static/media/OCI Foundations Associate_1Z0-1085-23.16b4cd7df42b22aca963.jpg",
+    "static/media/python3.svg": "/Ak-Nobelwolf/Portfolio/static/media/python3.13d5b230d0e20e4775ddab47ba00602b.svg",
+    "static/media/java.svg": "/Ak-Nobelwolf/Portfolio/static/media/java.a351f739f47fda7a637b86ffa530d56a.svg",
+    "static/media/react-2.svg": "/Ak-Nobelwolf/Portfolio/static/media/react-2.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/git.svg": "/Ak-Nobelwolf/Portfolio/static/media/git.2a98f35035608049c6a8e28206c3e49e.svg",
+    "static/media/javascript.svg": "/Ak-Nobelwolf/Portfolio/static/media/javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
+    "index.html": "/Ak-Nobelwolf/Portfolio/index.html",
+    "static/media/vscode.svg": "/Ak-Nobelwolf/Portfolio/static/media/vscode.b8b1e001813039750e6c05c236ab0d46.svg",
+    "static/media/css3.svg": "/Ak-Nobelwolf/Portfolio/static/media/css3.4e47c3122b8d2476a02f97dcfcb28640.svg",
+    "static/media/html5.svg": "/Ak-Nobelwolf/Portfolio/static/media/html5.f318c8b1d5945fa9adc827ae94849cb1.svg",
+    "main.31db6296.css.map": "/Ak-Nobelwolf/Portfolio/static/css/main.31db6296.css.map",
+    "main.9e264258.js.map": "/Ak-Nobelwolf/Portfolio/static/js/main.9e264258.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Ak-Nobelwolf/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31db6296.css",
+    "static/js/main.9e264258.js"
+  ]
+}
