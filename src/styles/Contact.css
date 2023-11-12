@@ -1,17 +1,16 @@
 /* Contact.css */
 .contact {
-  position: relative;
+  position: fixed;
   width: 100%;
   min-height: 100vh; /* Use min-height to ensure the content fills the screen */
   background: linear-gradient(to right, #3494e6, #ec6ead);
   color: white;
-  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .contact-content {
@@ -24,7 +23,6 @@
   padding: 20px;
   text-align: center;
 }
-
 .contact-details ul,
 .social-media ul {
   list-style: none;
@@ -33,7 +31,7 @@
 
 .contact-details li,
 .social-media li {
-  margin: 10px 0;
+  margin: 10px 0; /* Adjust this value to your preference */
 }
 
 .social-media i {
@@ -77,5 +75,3 @@ a:hover {
     font-size: 20px;
   }
 }
-
-

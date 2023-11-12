@@ -1,53 +1,53 @@
 /* Sidebar styles for overlay effect */
 .sidebar {
-    position: fixed;
-    top: 0;
-    right: -200px; /* Start with the sidebar hidden */
-    width: 250px;
-    background: linear-gradient(to right,#ec6ead, #3494e6);
-    color: blac;
-    display: flex;
-    flex-direction: column; /* Stack links vertically */
-    align-items: center; /* Center links horizontally */
-    height: 100vh; /* Make the sidebar full height */
-    z-index: 1; /* Ensure the sidebar appears on top of the landing page */
-    transition: right 0.3s; /* Add a transition for smooth sliding */
+  position: fixed;
+  top: 0;
+  right: -200px; /* Start with the sidebar hidden */
+  width: 250px;
+  background: linear-gradient(to right, #ec6ead, #3494e6);
+  color: black;
+  display: flex;
+  flex-direction: column; /* Stack links vertically */
+  align-items: center; /* Center links horizontally */
+  height: 100vh; /* Make the sidebar full height */
+  z-index: 1; /* Ensure the sidebar appears on top of the landing page */
+  transition: right 0.3s; /* Add a transition for smooth sliding */
+}
+
+.sidebar.active {
+  right: 0; /* Show the sidebar when it's active */
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: calc((100vh - 15rem) / 2); /* Center the sidebar vertically */
+}
+
+.sidebar li {
+  margin: 10px 0; /* Adjust this value to your preference */
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+  margin: 10px 0;
+  transition: color 0.3s;
+  font-size: 1rem;
+}
+
+.sidebar a:hover {
+  color: #30aee9;
+  text-decoration: underline;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%; /* Make the sidebar full width on small screens */
+    right: -100%; /* Hide the sidebar off the screen by default */
   }
 
   .sidebar.active {
     right: 0; /* Show the sidebar when it's active */
   }
-
-  .sidebar ul {
-    list-style: none;
-    padding: 0;
-    margin-top:20rem;
-  }
-
-  .sidebar li {
-    margin: 10px 0;
-  }
-
-  .sidebar a {
-    text-decoration: none;
-    color: white;
-    margin: 10px 0;
-    transition: color 0.3s; /* Add a color transition for smooth hover effect */
-  }
-
-  .sidebar a:hover {
-    color: #30aee9; /* Change the color on hover */
-    text-decoration: underline; /* Add an underline effect */
-  }
-
-  /* Media queries for responsiveness */
-  @media (max-width: 768px) {
-    .sidebar {
-      width: 100%; /* Make the sidebar full width on small screens */
-      right: -100%; /* Hide the sidebar off the screen by default */
-    }
-
-    .sidebar.active {
-      right: 0; /* Show the sidebar when it's active */
-    }
-  }
+}

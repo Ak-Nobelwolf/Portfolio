@@ -1,12 +1,13 @@
+/* Landing.css */
 .landing {
   position: relative;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(to right, #3494e6, #ec6ead);
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  overflow: hidden; /* Hide overflow for larger screens */
 }
 
 .landing-content {
@@ -14,39 +15,54 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 100%; /* Take full width */
+  width: 100%;
   position: relative;
+  box-sizing: border-box;
 }
 
 .intro {
   text-align: center;
   color: white;
   width: 100%;
-  padding: 0 20px; /* Add padding instead of margin */
-  box-sizing: border-box; /* Include padding in the width */
+  padding: 0 10px; /* Adjusted padding for smaller screens */
+  box-sizing: border-box;
 }
 
 .intro h1 {
-  font-size: 2.5rem;
+  font-size: 2rem; /* Adjusted font size for smaller screens */
 }
 
 .position {
-  font-size: 1.6rem;
-  font-weight:bold;
+  font-size: 1.4rem; /* Adjusted font size for smaller screens */
+  font-weight: bold;
 }
 
 .image img {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  border: 5px solid white;
+  width: 150px; /* Adjusted image size for smaller screens */
+  height: 150px; /* Adjusted image size for smaller screens */
+  border: 3px solid white; /* Adjusted border size for smaller screens */
   display: block;
   margin: 0 auto;
 }
+
 .profile-content {
-  font-size: 1.4rem;
+  font-size: 1rem; /* Adjusted font size for smaller screens */
   text-align: justify;
-  line-height: 1.6;
-  color: white; /* Change the color to your preference */
-  padding: 0 250px; /* Add some padding for better readability */
+  line-height: 1.4;
+  color: white;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+
+/* Media query for smaller screens (less than 768px) */
+@media (max-width: 768px) {
+  .landing-content {
+    padding: 10px; /* Adjusted padding for even smaller screens */
+    overflow-y: auto; /* Enable vertical scrolling for smaller screens */
+  }
+
+  .profile-content {
+    padding: 0;
+  }
 }

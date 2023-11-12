@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Landing from './components/Landing';
 import Experience from './components/Experience';
-import Skills from './components/Skills';
+import TechStack from './components/TechStack';
 import Projects from './components/Projects';
 import Publications from './components/Publications';
 import Awards from './components/Awards';
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Landing />} />
           <Route path="/experience" element={<Experience />} />
-          <Route path="/skills" element={<Skills />} />
+          <Route path="/techstack" element={<TechStack />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/publications" element={<Publications />} />
           <Route path="/awards" element={<Awards />} />
