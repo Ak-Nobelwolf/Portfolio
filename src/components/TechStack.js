@@ -33,7 +33,7 @@ function TechStack() {
 
   return (
     <div className="tech-stack-page">
-      <Sidebar/>
+      {/* <Sidebar/> */}
       <section id="tech-stack">
         <h2>Tech Stack</h2>
         <div className="tech-category">

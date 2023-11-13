@@ -16,7 +16,7 @@ import Sidebar from "./Sidebar";
 function Certificates() {
   return (
     <div>
-      <Sidebar/>
+      {/* <Sidebar/> */}
       <section className="certificates">
         <h2>Certificates</h2>
         <div className="certificate-cards">

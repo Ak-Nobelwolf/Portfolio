@@ -5,7 +5,7 @@ import Sidebar from './Sidebar';
 function Contact() {
   return (
     <div className="contact">
-      <Sidebar/>
+      {/* <Sidebar/> */}
       <div className="contact-content">
         <div className="contact-details">
           <h2>Contact Me</h2>

@@ -6,7 +6,7 @@ import Sidebar from '../components/Sidebar.js';
 function Landing() {
   return (
     <div className="landing">
-      <Sidebar/>
+      {/* <Sidebar/> */}
       <div className="landing-content">
         <div className="intro">
           <h1>Hello, I'm Akshay Tadakod</h1>
