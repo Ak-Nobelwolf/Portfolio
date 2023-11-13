@@ -1,0 +1,9 @@
+/* Layout.css */
+.Layout {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(to right, #3494e6, #ec6ead);
+    overflow: hidden;
+  }
