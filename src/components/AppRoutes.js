@@ -2,6 +2,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
+import Home from "../components/Home";
 import Experience from "../components/Experience";
 import TechStack from "../components/TechStack";
 import Projects from "../components/Projects";
@@ -13,6 +14,7 @@ import Contact from "../components/Contact";
 function AppRoutes() {
   return (
     <Routes>
+      <Route path="/" element={<Home/>}/>
       <Route path="/experience" element={<Experience />} />
       <Route path="/techstack" element={<TechStack />} />
       <Route path="/projects" element={<Projects />} />

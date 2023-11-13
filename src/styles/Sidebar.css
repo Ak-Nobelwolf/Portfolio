@@ -2,7 +2,7 @@
 .sidebar {
   position: fixed;
   top: 0;
-  right: -200px; /* Start with the sidebar hidden */
+  right: -200px;
   width: 250px;
   background: linear-gradient(to right, #ec6ead, #3494e6);
   color: white;
@@ -42,14 +42,7 @@
   text-decoration: underline;
 }
 
-/* Media queries for responsiveness */
-@media (max-width: 768px) {
-  /* .sidebar {
-    width: 100%;
-    right: -100%;
-  } */
-
-  .sidebar.active {
-    right: 0;
-  }
+.sidebar .active-link {
+  color: #a2e930;
+  font-weight: bold;
 }

@@ -11,10 +11,12 @@ import Certificate7 from "../images/certificates/07 - Principles of UX UI Design
 import Certificate8 from "../images/certificates/08 - Front-End Developer Capstone.jpeg";
 import Certificate9 from "../images/certificates/09 - Coding Interview Preparations.jpeg";
 import Certificate10 from "../images/certificates/OCI Foundations Associate_1Z0-1085-23.jpg";
+import Sidebar from "./Sidebar";
 
 function Certificates() {
   return (
     <div>
+      <Sidebar/>
       <section className="certificates">
         <h2>Certificates</h2>
         <div className="certificate-cards">

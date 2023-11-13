@@ -1,7 +1,11 @@
-import React, { useState } from 'react';
-import '../styles/Sidebar.css';
+// Sidebar.jsx
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import "../styles/Sidebar.css";
 
-function Sidebar({ onLinkClick }) {
+function Sidebar() {
   const [isSidebarActive, setSidebarActive] = useState(false);
 
   const handleSidebarHover = () => {
@@ -13,18 +17,52 @@ function Sidebar({ onLinkClick }) {
   };
 
   return (
-    <div className={`sidebar ${isSidebarActive ? "active" : ""}`}
-    onMouseEnter={handleSidebarHover}
-    onMouseLeave={handleSidebarLeave}>
+    <div
+      className={`sidebar${isSidebarActive ? " active" : ""}`}
+      onMouseEnter={handleSidebarHover}
+      onMouseLeave={handleSidebarLeave}
+    >
       <ul>
-        <li onClick={() => onLinkClick('landing')}>Home</li>
-        <li onClick={() => onLinkClick('experience')}>Experience</li>
-        <li onClick={() => onLinkClick('techstack')}>TechStack</li>
-        <li onClick={() => onLinkClick('projects')}>Projects</li>
-        <li onClick={() => onLinkClick('publications')}>Publications</li>
-        <li onClick={() => onLinkClick('awards')}>Awards</li>
-        <li onClick={() => onLinkClick('certificates')}>Certificates</li>
-        <li onClick={() => onLinkClick('contact')}>Contact</li>
+        <li>
+          <NavLink to="/" activeClassName="active-link" exact>
+            <FontAwesomeIcon icon={faHome} color="white" /> Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/experience" activeClassName="active-link">
+            Experience
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/techstack" activeClassName="active-link">
+            TechStack
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/projects" activeClassName="active-link">
+            Projects
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/publications" activeClassName="active-link">
+            Publications
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/awards" activeClassName="active-link">
+            Awards
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/certificates" activeClassName="active-link">
+            Certificates
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact" activeClassName="active-link">
+            <FontAwesomeIcon icon={faEnvelope} color="white" /> Contact
+          </NavLink>
+        </li>
       </ul>
     </div>
   );

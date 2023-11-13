@@ -9,6 +9,7 @@ import reactLogo from "../images/logos/react-2.svg";
 import gitLogo from "../images/logos/git.svg";
 import vscodeLogo from "../images/logos/vscode.svg";
 import "../styles/TechStack.css";
+import Sidebar from "./Sidebar";
 
 function TechStack() {
   const programmingLanguages = [
@@ -32,9 +33,9 @@ function TechStack() {
 
   return (
     <div className="tech-stack-page">
+      <Sidebar/>
       <section id="tech-stack">
         <h2>Tech Stack</h2>
-
         <div className="tech-category">
           <h3>Programming Languages</h3>
           <div className="card-container">
