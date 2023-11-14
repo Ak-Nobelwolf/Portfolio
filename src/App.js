@@ -19,8 +19,6 @@ function App() {
   return (
     <>
       <Layout/>
-      <AppRoutes/>
-    {/* <Layout/>
       <Routes>
         <Route exact path="/" Component={Home}/>
         <Route exact path="/experience" Component={Experience}/>
@@ -30,7 +28,7 @@ function App() {
         <Route exact path="/awards" Component={Awards } />
         <Route exact path="/certificates" Component={Certificates} />
         <Route exact path="/contact" Component={Contact} />
-      </Routes> */}
+      </Routes>
     </>
   );
 }
