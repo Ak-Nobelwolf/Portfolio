@@ -1,7 +1,7 @@
 import React from "react";
 import Profile from "../assets/Profile.png";
 import "../styles/Landing.css";
-import Sidebar from '../components/Sidebar.js';
+// import Sidebar from '../components/Sidebar.js';
 
 function Landing() {
   return (

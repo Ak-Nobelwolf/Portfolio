@@ -1,14 +1,13 @@
-// import { Outlet } from 'react-router-dom'
+import React from "react";
 import Sidebar from '../components/Sidebar';
-// import '../styles/Layout.css'
+import AppRoutes from './AppRoutes';
+import '../styles/Layout.css'
 
 const Layout = () => {
   return (
     <div className="Layout">
       <Sidebar />
-      {/* <div className="page">
-        <Outlet />
-      </div> */}
+      <AppRoutes/>
     </div>
   )
 }
