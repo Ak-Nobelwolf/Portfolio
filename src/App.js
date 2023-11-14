@@ -11,7 +11,7 @@ import Awards from "./components/Awards";
 import Certificates from "./components/Certificates";
 import Contact from "./components/Contact";
 import Layout from './components/Layout';
-import AppRoutes from '.components/AppRoutes';
+import AppRoutes from './components/AppRoutes';
 // import Sidebar from './components/Sidebar';
 
 function App() {
