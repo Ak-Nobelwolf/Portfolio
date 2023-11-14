@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ak-Nobelwolf/Portfolio/static/css/main.31db6296.css",
-    "main.js": "/Ak-Nobelwolf/Portfolio/static/js/main.9e264258.js",
+    "main.css": "/Ak-Nobelwolf/Portfolio/static/css/main.2734105e.css",
+    "main.js": "/Ak-Nobelwolf/Portfolio/static/js/main.a8154e97.js",
     "static/js/787.1ed0c42c.chunk.js": "/Ak-Nobelwolf/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/01- Introduction to Front-End Development.jpeg": "/Ak-Nobelwolf/Portfolio/static/media/01- Introduction to Front-End Development.910846f1e5c6b64e1ec9.jpeg",
     "static/media/02 - Programming with JavaScript.jpeg": "/Ak-Nobelwolf/Portfolio/static/media/02 - Programming with JavaScript.ee302b00d9846284e49d.jpeg",
@@ -24,12 +24,12 @@
     "static/media/vscode.svg": "/Ak-Nobelwolf/Portfolio/static/media/vscode.b8b1e001813039750e6c05c236ab0d46.svg",
     "static/media/css3.svg": "/Ak-Nobelwolf/Portfolio/static/media/css3.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/html5.svg": "/Ak-Nobelwolf/Portfolio/static/media/html5.f318c8b1d5945fa9adc827ae94849cb1.svg",
-    "main.31db6296.css.map": "/Ak-Nobelwolf/Portfolio/static/css/main.31db6296.css.map",
-    "main.9e264258.js.map": "/Ak-Nobelwolf/Portfolio/static/js/main.9e264258.js.map",
+    "main.2734105e.css.map": "/Ak-Nobelwolf/Portfolio/static/css/main.2734105e.css.map",
+    "main.a8154e97.js.map": "/Ak-Nobelwolf/Portfolio/static/js/main.a8154e97.js.map",
     "787.1ed0c42c.chunk.js.map": "/Ak-Nobelwolf/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31db6296.css",
-    "static/js/main.9e264258.js"
+    "static/css/main.2734105e.css",
+    "static/js/main.a8154e97.js"
   ]
 }
