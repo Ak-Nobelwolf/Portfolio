@@ -3,6 +3,12 @@ body, html {
     padding: 0;
   }
 
+  html{
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(to right, #3494e6, #ec6ead);
+  }
+
   /* @media (min-width: 769px) {
     body {
       overflow: hidden;
