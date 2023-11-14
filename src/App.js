@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 // import { Route, Router, Routes } from 'react-router-dom'
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from "react-router-dom";
 
 import Home from "./components/Home";
 import Experience from "./components/Experience";
@@ -10,24 +10,25 @@ import Publications from "./components/Publications";
 import Awards from "./components/Awards";
 import Certificates from "./components/Certificates";
 import Contact from "./components/Contact";
-import Layout from './components/Layout';
-import AppRoutes from './components/AppRoutes';
+import Layout from "./components/Layout";
+// import AppRoutes from "./components/AppRoutes";
 // import Sidebar from './components/Sidebar';
 
 function App() {
-
   return (
     <>
-      <Layout/>
+      <Layout />
       <Routes>
-        <Route exact path="/" Component={Home}/>
-        <Route exact path="/experience" Component={Experience}/>
-        <Route exact path="/techstack" Component={TechStack} />
-        <Route exact path="/projects" Component={Projects } />
-        <Route exact path="/publications" Component={Publications } />
-        <Route exact path="/awards" Component={Awards } />
-        <Route exact path="/certificates" Component={Certificates} />
-        <Route exact path="/contact" Component={Contact} />
+        <Route path="/" element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/techstack" element={<TechStack />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/publications" element={<Publications />} />
+          <Route path="/awards" element={<Awards />} />
+          <Route path="/certificates" element={<Certificates />} />
+          <Route path="/contact" element={<Contact />} />
+        </Route>
       </Routes>
     </>
   );
