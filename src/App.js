@@ -15,16 +15,6 @@ function App() {
   return (
     <>
       <Layout />
-      {/* <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/experience" element={<Experience />} />
-        <Route path="/techstack" element={<TechStack />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/publications" element={<Publications />} />
-        <Route path="/awards" element={<Awards />} />
-        <Route path="/certificates" element={<Certificates />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes> */}
     </>
   );
 }
