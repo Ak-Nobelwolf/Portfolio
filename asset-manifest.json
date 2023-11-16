@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.2734105e.css",
-    "main.js": "/Portfolio/static/js/main.c188ca29.js",
+    "main.css": "/Portfolio/static/css/main.b755a50d.css",
+    "main.js": "/Portfolio/static/js/main.cf43da0f.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/01- Introduction to Front-End Development.jpeg": "/Portfolio/static/media/01- Introduction to Front-End Development.910846f1e5c6b64e1ec9.jpeg",
     "static/media/02 - Programming with JavaScript.jpeg": "/Portfolio/static/media/02 - Programming with JavaScript.ee302b00d9846284e49d.jpeg",
@@ -17,19 +17,23 @@
     "static/media/OCI Foundations Associate_1Z0-1085-23.jpg": "/Portfolio/static/media/OCI Foundations Associate_1Z0-1085-23.16b4cd7df42b22aca963.jpg",
     "static/media/python3.svg": "/Portfolio/static/media/python3.13d5b230d0e20e4775ddab47ba00602b.svg",
     "static/media/java.svg": "/Portfolio/static/media/java.a351f739f47fda7a637b86ffa530d56a.svg",
-    "static/media/react-2.svg": "/Portfolio/static/media/react-2.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/react.svg": "/Portfolio/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/eclipse.svg": "/Portfolio/static/media/eclipse.afac9e0158097d9876e36911849905d9.svg",
+    "static/media/pycharm.svg": "/Portfolio/static/media/pycharm.b89b1c080fa252c7813f9f2aca5fdde8.svg",
     "static/media/git.svg": "/Portfolio/static/media/git.2a98f35035608049c6a8e28206c3e49e.svg",
+    "static/media/bitbucket.svg": "/Portfolio/static/media/bitbucket.dd613b9566dfb1a81524998b64cae760.svg",
     "static/media/javascript.svg": "/Portfolio/static/media/javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/vscode.svg": "/Portfolio/static/media/vscode.b8b1e001813039750e6c05c236ab0d46.svg",
     "static/media/css3.svg": "/Portfolio/static/media/css3.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/html5.svg": "/Portfolio/static/media/html5.f318c8b1d5945fa9adc827ae94849cb1.svg",
-    "main.2734105e.css.map": "/Portfolio/static/css/main.2734105e.css.map",
-    "main.c188ca29.js.map": "/Portfolio/static/js/main.c188ca29.js.map",
+    "static/media/visualstudio.svg": "/Portfolio/static/media/visualstudio.bf694f6526d78023011f1906cc8387cc.svg",
+    "main.b755a50d.css.map": "/Portfolio/static/css/main.b755a50d.css.map",
+    "main.cf43da0f.js.map": "/Portfolio/static/js/main.cf43da0f.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2734105e.css",
-    "static/js/main.c188ca29.js"
+    "static/css/main.b755a50d.css",
+    "static/js/main.cf43da0f.js"
   ]
 }
