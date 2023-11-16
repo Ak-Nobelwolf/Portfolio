@@ -1,27 +1,25 @@
-// Sidebar.jsx
+// MobileSidebar.jsx
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faEnvelope, faBriefcase, faCode, faProjectDiagram, faNewspaper, faAward, faCertificate } from '@fortawesome/free-solid-svg-icons';
-import "../styles/Sidebar.css";
+import "../styles/MobileSidebar.css";
 
-function Sidebar() {
+function MobileSidebar() {
+    console.log("MobileSidebar component rendering...");
   const [isSidebarActive, setSidebarActive] = useState(false);
 
-  const handleSidebarHover = () => {
-    setSidebarActive(true);
-  };
-
-  const handleSidebarLeave = () => {
-    setSidebarActive(false);
+  const handleSidebarToggle = () => {
+    setSidebarActive(!isSidebarActive);
   };
 
   return (
-    <div
-      className={`sidebar${isSidebarActive ? " active" : ""}`}
-      onMouseEnter={handleSidebarHover}
-      onMouseLeave={handleSidebarLeave}
-    >
+    <div className={`mobile-sidebar${isSidebarActive ? " active" : ""}`}>
+      <button className="toggle-button" onClick={handleSidebarToggle}>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+      </button>
       <ul>
         <li>
           <NavLink to="/" activeclassName="active-link">
@@ -30,7 +28,7 @@ function Sidebar() {
         </li>
         <li>
           <NavLink to="/experience" activeclassName="active-link">
-            <FontAwesomeIcon icon={faBriefcase} color="Black" /> Experience
+            <FontAwesomeIcon icon={faBriefcase} color="black" /> Experience
           </NavLink>
         </li>
         <li>
@@ -68,4 +66,4 @@ function Sidebar() {
   );
 }
 
-export default Sidebar;
+export default MobileSidebar;

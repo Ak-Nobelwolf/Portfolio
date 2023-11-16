@@ -18,6 +18,7 @@
   width: 100%;
   position: relative;
   box-sizing: border-box;
+  padding:20px;
 }
 
 .intro {
@@ -41,7 +42,7 @@
   border-radius: 50%;
   width: 150px; /* Adjusted image size for smaller screens */
   height: 150px; /* Adjusted image size for smaller screens */
-  border: 3px solid white; /* Adjusted border size for smaller screens */
+  border: 3.5px solid white; /* Adjusted border size for smaller screens */
   display: block;
   margin: 0 auto;
 }
@@ -58,7 +59,7 @@
 /* Media query for smaller screens (less than 768px) */
 @media (max-width: 768px) {
   .landing-content {
-    padding: 10px; /* Adjusted padding for even smaller screens */
+    padding: 40px; /* Adjusted padding for even smaller screens */
     overflow-y: auto; /* Enable vertical scrolling for smaller screens */
   }
 

@@ -5,11 +5,16 @@ import pythonLogo from "../images/logos/python3.svg";
 import jsLogo from "../images/logos/javascript.svg";
 import htmlLogo from "../images/logos/html5.svg";
 import cssLogo from "../images/logos/css3.svg";
-import reactLogo from "../images/logos/react-2.svg";
+import reactLogo from "../images/logos/react.svg";
 import gitLogo from "../images/logos/git.svg";
 import vscodeLogo from "../images/logos/vscode.svg";
+import visualStudioLogo from "../images/logos/visualstudio.svg";
+import pycharmLogo from "../images/logos/pycharm.svg";
+import eclipseLogo from "../images/logos/eclipse.svg";
+import bibucketLogo from "../images/logos/bitbucket.svg";
+
 import "../styles/TechStack.css";
-import Sidebar from "./Sidebar";
+// import Sidebar from "./Sidebar";
 
 function TechStack() {
   const programmingLanguages = [
@@ -22,13 +27,15 @@ function TechStack() {
 
   const frameworks = [
     { name: "React.js", logo: reactLogo },
-    // Add other frameworks as needed
   ];
 
   const tools = [
     { name: "Git", logo: gitLogo },
     { name: "Visual Studio Code", logo: vscodeLogo },
-    // Add other tools as needed
+    { name: "Visual Studio", logo: visualStudioLogo },
+    { name: "PyCharm", logo: pycharmLogo },
+    { name: "Eclipse", logo: eclipseLogo },
+    { name: "BitBucket", logo: bibucketLogo },
   ];
 
   return (

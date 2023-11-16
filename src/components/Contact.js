@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Contact.css';
-import Sidebar from './Sidebar';
+// import Sidebar from './Sidebar';
 
 function Contact() {
   return (
