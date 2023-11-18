@@ -24,42 +24,42 @@ function Sidebar() {
     >
       <ul>
         <li>
-          <NavLink to="/" activeclassName="active-link">
+          <NavLink to="/" activeClassName="active-link">
             <FontAwesomeIcon icon={faHome} color="black" /> Home
           </NavLink>
         </li>
         <li>
-          <NavLink to="/experience" activeclassName="active-link">
+          <NavLink to="/experience" activeClassName="active-link">
             <FontAwesomeIcon icon={faBriefcase} color="Black" /> Experience
           </NavLink>
         </li>
         <li>
-          <NavLink to="/techstack" activeclassName="active-link">
+          <NavLink to="/techstack" activeClassName="active-link">
             <FontAwesomeIcon icon={faCode} color="black" /> TechStack
           </NavLink>
         </li>
         <li>
-          <NavLink to="/projects" activeclassName="active-link">
+          <NavLink to="/projects" activeClassName="active-link">
             <FontAwesomeIcon icon={faProjectDiagram} color="black" /> Projects
           </NavLink>
         </li>
         <li>
-          <NavLink to="/publications" activeclassName="active-link">
+          <NavLink to="/publications" activeClassName="active-link">
             <FontAwesomeIcon icon={faNewspaper} color="black" /> Publications
           </NavLink>
         </li>
         <li>
-          <NavLink to="/awards" activeclassName="active-link">
+          <NavLink to="/awards" activeClassName="active-link">
             <FontAwesomeIcon icon={faAward} color="black" /> Awards
           </NavLink>
         </li>
         <li>
-          <NavLink to="/certificates" activeclassName="active-link">
+          <NavLink to="/certificates" activeClassName="active-link">
             <FontAwesomeIcon icon={faCertificate} color="black" /> Certificates
           </NavLink>
         </li>
         <li>
-          <NavLink to="/contact" activeclassName="active-link">
+          <NavLink to="/contact" activeClassName="active-link">
             <FontAwesomeIcon icon={faEnvelope} color="black" /> Contact
           </NavLink>
         </li>

@@ -5,7 +5,7 @@
   right: -200px;
   width: 250px;
   background: linear-gradient(to right, #ec6ead, #3494e6);
-  /* color: white; */
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,3 +29,12 @@
   cursor: pointer;
 }
 
+.sidebar li a {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar li a:hover {
+  /* text-decoration: underline; */
+  color: #007bff;
+}
