@@ -1,2 +1,236 @@
-/* Experience.css */
-/* Add experience-specific styles here */
+#experience {
+  background: linear-gradient(to right, #3494e6, #ec6ead);
+  color: white;
+}
+
+#experience h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.experience {
+  margin-bottom: 30px;
+  padding: 0 10px; /* Adjust padding for smaller screens */
+}
+
+#experience .experience-company {
+  /* padding-left: 10px;  */
+  margin-bottom: 15px; /* Adjust margin for smaller screens */
+}
+
+.experience-title {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.experience-date {
+  font-size: 1.2rem;
+  color: #0a0a0a;
+  text-align: right;
+  padding-right: 10px; /* Adjust padding for smaller screens */
+  margin-top: -20px; /* Adjust margin for smaller screens */
+  margin-bottom: -10px; /* Adjust margin for smaller screens */
+}
+
+.experience-description {
+  padding: 0 10px; /* Adjust padding for smaller screens */
+}
+
+.project-1,
+.project-2,
+.division-1,
+.division-2,
+.division-3 {
+  padding-left: 10px; /* Adjust padding for smaller screens */
+  padding-bottom: 20px;
+}
+
+.uniform-list,
+.non-uniform-list {
+  margin-top: 5px;
+  margin-left: 10px; /* Adjust margin for smaller screens */
+}
+
+.experience-description h4 {
+  color: white;
+  margin-bottom: -10px;
+  margin-top: -10px;
+}
+
+.project-1 p,
+.project-2 p,
+.division-1 p,
+.division-2 p,
+.division-3 p {
+  color: #000000;
+}
+
+.project-1 ol,
+.project-2 ol,
+.division-1 ol,
+.division-2 ol,
+.division-3 ol {
+  padding: 0;
+  padding-left: 10px; /* Adjust padding for smaller screens */
+  margin-top: 0px;
+  margin-bottom: 15px; /* Adjust margin for smaller screens */
+}
+
+.experience-description ol li {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.experience-description ol li strong {
+  font-weight: bold;
+}
+
+.experience-description ol ul {
+  list-style-type: disc;
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+.experience-description ol ul li {
+  margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 1025px) {
+  #experience {
+    padding: 50px 100px 0px 100px;
+  }
+
+  .experience {
+    padding: 0 20px;
+  }
+
+  #experience .experience-company {
+    padding-left: 20px;
+  }
+
+  .experience-date {
+    padding-right: 50px;
+    margin-top: -30px;
+    margin-bottom: -20px;
+  }
+
+  .experience-description {
+    padding: 0 25px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  #experience {
+    padding: 50px 80px 0px 80px;
+  }
+
+  .experience {
+    padding: 0 20px;
+  }
+
+  #experience .experience-company {
+    padding-left: 20px;
+  }
+
+  .experience-date {
+    padding-right: 50px;
+    margin-top: -30px;
+    margin-bottom: -20px;
+  }
+
+  .experience-description {
+    padding: 0 25px;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  #experience {
+    padding: 50px 0px 0px;
+  }
+
+  .experience {
+    padding: 0 20px;
+  }
+
+  #experience .experience-company {
+    padding-left: 40px;
+  }
+
+  .experience-title {
+    padding-left: 20px;
+  }
+
+  .experience-date {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-left: 20px;
+  }
+
+  .experience-description {
+    padding: 0 55px;
+  }
+
+  .project-1,
+  .project-2,
+  .division-1,
+  .division-2,
+  .division-3 {
+    padding-left: 0px;
+    padding-bottom: 20px;
+  }
+  .project-1 ol,
+  .project-2 ol,
+  .division-1 ol,
+  .division-2 ol,
+  .division-3 ol {
+    padding: 0;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #experience {
+    padding: 50px 0 0;
+  }
+
+  .experience {
+    padding: 0 20px;
+  }
+
+  #experience .experience-company {
+    padding-left: 40px;
+  }
+
+  .experience-title {
+    padding-left: 20px;
+  }
+
+  .experience-date {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-left: 20px;
+  }
+
+  .experience-description {
+    padding: 0 40px;
+  }
+
+  .project-1,
+  .project-2,
+  .division-1,
+  .division-2,
+  .division-3 {
+    padding-left: 0px;
+    padding-bottom: 20px;
+  }
+  .project-1 ol,
+  .project-2 ol,
+  .division-1 ol,
+  .division-2 ol,
+  .division-3 ol {
+    padding: 0;
+    margin-bottom: 15px;
+  }
+}
