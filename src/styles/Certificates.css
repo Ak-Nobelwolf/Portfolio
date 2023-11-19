@@ -66,6 +66,10 @@
 /* Media Query for Certificate Cards Section */
 /* Small screens (up to 576px) */
 @media (max-width: 576px) {
+  .certificates{
+    margin-top: 40px;
+  }
+
   .certificate-cards {
     gap: 20px; /* Adjust as needed */
     margin-top: 10px;
@@ -79,6 +83,10 @@
 
 /* Medium screens (between 577px and 768px) */
 @media (min-width: 577px) and (max-width: 768px) {
+  .certificates{
+    margin-top: 40px;
+  }
+
   .certificate-cards {
     gap: 30px; /* Adjust as needed */
     margin-top: 15px;
