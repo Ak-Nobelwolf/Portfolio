@@ -1,2 +1,62 @@
 /* Projects.css */
-/* Add projects-specific styles here */
+#projects {
+  background: linear-gradient(to right, #3494e6, #ec6ead);
+  color: white;
+  padding: 50px 30px;
+  margin-bottom: -30px;
+  margin-top: -30px;
+}
+
+#projects h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.project-card {
+  border: 2px solid #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  text-align: center;
+  margin-top: 0;
+}
+
+.project-card p {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.project-card a {
+  display: block;
+  text-align: center;
+  color: #fff;
+  background-color: #4caf50;
+  padding: 10px;
+  margin-top: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.project-card a:hover {
+  background-color: #45a049;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 425px) {
+  .project-card {
+    width: calc(100% - 40px); /* 1 card per row, considering margin */
+    margin-right: 0;
+  }
+}

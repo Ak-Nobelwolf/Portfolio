@@ -1,16 +1,23 @@
-import React from 'react';
-import '../styles/Awards.css';
+// Awards.jsx
+import React from "react";
+import "../styles/Awards.css";
 
 function Awards() {
   return (
     <section id="awards">
       <h2>Awards</h2>
-      <ul>
-        <li>Outstanding Performance Award, XYZ Company - 2021</li>
-        <li>Best Innovator of the Year, ABC Tech - 2020</li>
-        <li>Excellence in Web Development, Web Awards - 2019</li>
-        <li>Employee of the Month, PQR Solutions - 2018</li>
-      </ul>
+
+      <div className="award-card">
+        <h3>Insta Award</h3>
+        <p className="award-company">Issued by Infosys Ltd</p>
+        <p className="award-description">
+          I am honored to receive the Insta Award for Excellent Work and
+          Contribution towards Oracle PLM COE activities. This award recognizes
+          my efforts in developing and implementing innovative solutions for the
+          Product Lifecycle Management Center of Excellence. I am grateful to my
+          team, my manager, and my clients for their support and collaboration.
+        </p>
+      </div>
     </section>
   );
 }

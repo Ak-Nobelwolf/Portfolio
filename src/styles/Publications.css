@@ -1,2 +1,43 @@
 /* Publications.css */
-/* Add publications-specific styles here */
+#publications {
+  background: linear-gradient(to right, #3494e6, #ec6ead);
+  color: white;
+  padding: 50px 20px;
+  margin-bottom: -30px;
+  margin-top: -30px;
+}
+
+#publications h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.publication {
+  border: 2px solid #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.publication h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.publication p {
+  /* color: #ddd; */
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.publication a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .publication {
+    margin-right: 30px;
+  }
+}
