@@ -14,8 +14,7 @@ function Awards() {
           I am honored to receive the Insta Award for Excellent Work and
           Contribution towards Oracle PLM COE activities. This award recognizes
           my efforts in developing and implementing innovative solutions for the
-          Product Lifecycle Management Center of Excellence. I am grateful to my
-          team, my manager, and my clients for their support and collaboration.
+          Product Lifecycle Management Center of Excellence.
         </p>
       </div>
     </section>
