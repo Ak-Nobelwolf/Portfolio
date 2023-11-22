@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 0 0 0 20px;
   font-size: 1.3rem;
 }
 
@@ -63,7 +63,7 @@
 
 .copyright {
   position: absolute;
-  bottom: 50px;
+  bottom: 70px;
   text-align: center;
   width: 100%;
 }
@@ -83,7 +83,6 @@
   }
 
   .copyright {
-    /* bottom: 30px; */
     padding-right: 37px;
   }
 }

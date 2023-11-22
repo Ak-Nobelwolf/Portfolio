@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden; /* Hide overflow for larger screens */
+
 }
 
 .landing-content {
@@ -25,12 +25,12 @@
   text-align: center;
   color: white;
   width: 100%;
-  padding: 0 10px; /* Adjusted padding for smaller screens */
+  padding: 0 10px;
   box-sizing: border-box;
 }
 
 .intro h1 {
-  font-size: 2rem; /* Adjusted font size for smaller screens */
+  font-size: 2rem;
 }
 
 .position {
@@ -40,15 +40,15 @@
 
 .image img {
   border-radius: 50%;
-  width: 150px; /* Adjusted image size for smaller screens */
-  height: 150px; /* Adjusted image size for smaller screens */
-  border: 3.5px solid white; /* Adjusted border size for smaller screens */
+  width: 150px;
+  height: 150px;
+  border: 3.5px solid white;
   display: block;
   margin: 0 auto;
 }
 
 .profile-content {
-  font-size: 1rem; /* Adjusted font size for smaller screens */
+  font-size: 1rem;
   text-align: justify;
   line-height: 1.4;
   color: white;
@@ -59,7 +59,7 @@
 /* Media query for smaller screens (less than 768px) */
 @media (max-width: 425px) {
   .landing-content {
-    padding: 40px; /* Adjusted padding for even smaller screens */
+    padding: 40px;
     overflow-y: auto; /* Enable vertical scrolling for smaller screens */
   }
 
@@ -76,5 +76,11 @@
 @media (min-width: 768px) {
   .profile-content {
     font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .landing {
+    position: fixed;
   }
 }

@@ -1,11 +1,13 @@
 import React from "react";
-import Layout from "./components/Layout";
+import Navbar from "./components/Navbar";
+import AppRoutes from "./components/AppRoutes";
 import './App.css';
 
 function App() {
   return (
     <>
-      <Layout />
+      <Navbar/>
+      <AppRoutes/>
     </>
   );
 }

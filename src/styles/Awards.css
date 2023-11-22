@@ -1,9 +1,11 @@
 /* Awards.css */
 #awards {
-  /* background: linear-gradient(to right, #3494e6, #ec6ead); */
+  background: linear-gradient(to right, #3494e6, #ec6ead);
   color: white;
   margin-bottom: -30px;
   margin-top: -30px;
+  padding: 15px 20px;
+  height: 100vh;
 }
 
 #awards h2 {
@@ -43,13 +45,13 @@
 /* Add any additional styling as needed */
 @media screen and (min-width: 1044px) {
     #awards {
-      padding: 50px 300px;
+      padding: 15px 300px;
     }
   }
 
 @media screen and (min-width: 1024px) and (max-width: 1044px){
     #awards {
-      padding: 50px 250px;
+      padding: 15px 250px;
     }
   }
 
@@ -59,18 +61,18 @@
   }
 
   #awards {
-    padding: 50px 200px;
+    padding: 15px 200px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 426px) {
   #awards {
-    padding: 50px 20px;
+    padding: 15px 20px;
   }
 }
 
 @media screen and (min-width: 427px) and (max-width: 768px) {
     #awards {
-      padding: 50px 150px;
+      padding:15px 150px;
     }
   }

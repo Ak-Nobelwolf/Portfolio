@@ -66,12 +66,8 @@
 /* Media Query for Certificate Cards Section */
 /* Small screens (up to 576px) */
 @media (max-width: 576px) {
-  .certificates{
-    margin-top: 40px;
-  }
-
   .certificate-cards {
-    gap: 20px; /* Adjust as needed */
+    gap: 20px; 
     margin-top: 10px;
   }
 
@@ -83,12 +79,8 @@
 
 /* Medium screens (between 577px and 768px) */
 @media (min-width: 577px) and (max-width: 768px) {
-  .certificates{
-    margin-top: 40px;
-  }
-
   .certificate-cards {
-    gap: 30px; /* Adjust as needed */
+    gap: 30px;
     margin-top: 15px;
   }
 
@@ -101,7 +93,7 @@
 /* Large screens (769px and above) */
 @media (min-width: 769px) {
   .certificate-cards {
-    gap: 30px; /* Adjust as needed */
+    gap: 30px; 
   }
 
   .certificate-card {
