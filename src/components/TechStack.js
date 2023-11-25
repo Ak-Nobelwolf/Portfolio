@@ -14,7 +14,6 @@ import eclipseLogo from "../images/logos/eclipse.svg";
 import bibucketLogo from "../images/logos/bitbucket.svg";
 
 import "../styles/TechStack.css";
-// import Sidebar from "./Sidebar";
 
 function TechStack() {
   const programmingLanguages = [
@@ -25,9 +24,7 @@ function TechStack() {
     { name: "CSS", logo: cssLogo },
   ];
 
-  const frameworks = [
-    { name: "React.js", logo: reactLogo },
-  ];
+  const frameworks = [{ name: "React.js", logo: reactLogo }];
 
   const tools = [
     { name: "Git", logo: gitLogo },
@@ -40,7 +37,6 @@ function TechStack() {
 
   return (
     <div className="tech-stack-page">
-      {/* <Sidebar/> */}
       <section id="tech-stack">
         <h2>Tech Stack</h2>
         <div className="tech-category">

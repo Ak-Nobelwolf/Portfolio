@@ -6,7 +6,6 @@ function Awards() {
   return (
     <section id="awards">
       <h2>Awards</h2>
-
       <div className="award-card">
         <h3>Insta Award</h3>
         <p className="award-company">Issued by Infosys Ltd</p>

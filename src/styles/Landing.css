@@ -1,4 +1,6 @@
 /* Landing.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 .landing {
   position: relative;
   width: 100vw;
@@ -7,7 +9,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .landing-content {
@@ -18,7 +19,7 @@
   width: 100%;
   position: relative;
   box-sizing: border-box;
-  padding:20px;
+  padding: 20px;
 }
 
 .intro {
@@ -29,8 +30,41 @@
   box-sizing: border-box;
 }
 
-.intro h1 {
-  font-size: 2rem;
+svg {
+  width: 100%;
+}
+
+svg text {
+  animation: stroke 5s infinite alternate;
+  stroke-width: 2;
+  stroke: #ffffff;
+  font-size: 40px;
+}
+
+@keyframes stroke {
+  0% {
+    fill: rgba(255, 255, 255, 0);
+    stroke: rgba(255, 255, 255, 1);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 2;
+  }
+  70% {
+    fill: rgba(255, 255, 255, 0);
+    stroke: rgba(255, 255, 255, 1);
+  }
+  80% {
+    fill: rgba(255, 255, 255, 0);
+    stroke: rgba(255, 255, 255, 1);
+    stroke-width: 3;
+  }
+  100% {
+    fill: rgba(255, 255, 255, 1);
+    stroke: rgba(255, 255, 255, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+  }
 }
 
 .position {
@@ -40,8 +74,8 @@
 
 .image img {
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 190px;
+  height: 190px;
   border: 3.5px solid white;
   display: block;
   margin: 0 auto;
@@ -58,11 +92,6 @@
 
 /* Media query for smaller screens (less than 768px) */
 @media (max-width: 425px) {
-  .landing-content {
-    padding: 40px;
-    overflow-y: auto; /* Enable vertical scrolling for smaller screens */
-  }
-
   .profile-content {
     padding: 0;
     font-size: 1rem;
@@ -71,16 +100,36 @@
   .intro h1 {
     font-size: 1.6rem;
   }
-}
 
-@media (min-width: 768px) {
-  .profile-content {
-    font-size: 1.2rem;
+  .image img {
+    width: 125px;
+    height: 125px;
+  }
+
+  svg text {
+    font-size: 20px;
+  }
+
+  svg {
+    height: 7vh;
+    margin-top: 30px;
   }
 }
 
 @media (min-width: 769px) {
   .landing {
     position: fixed;
+  }
+
+  .profile-content {
+    font-size: 1.15rem;
+  }
+
+  .position {
+    font-size: 1.4rem;
+  }
+
+  .landing-content {
+    margin-bottom: 20vh;
   }
 }

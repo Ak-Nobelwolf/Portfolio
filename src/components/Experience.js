@@ -18,7 +18,9 @@ function Experience() {
 
       <div className="experience-description">
         <div className="project-1">
-          <h4>Project 1: Full-Stack Developer | Integration and Migration Project</h4>
+          <h4>
+            Project 1: Full-Stack Developer | Integration and Migration Project
+          </h4>
           <p>Nov 2022 - Jul 2023</p>
 
           <ol className="uniform-list">
@@ -31,8 +33,8 @@ function Experience() {
                 </li>
                 <li>
                   Utilized a comprehensive technology stack including HTML, CSS,
-                  JavaScript, Java Servlet, and Apache Server for a seamless user
-                  experience.
+                  JavaScript, Java Servlet, and Apache Server for a seamless
+                  user experience.
                 </li>
                 <li>
                   Proficient in full-stack development, seamlessly integrating
@@ -46,8 +48,9 @@ function Experience() {
               <strong>User-Friendly Interface Design:</strong>
               <ul>
                 <li>
-                  Created an intuitive web interface using HTML and CSS, ensuring
-                  easy accessibility and user-friendliness for diverse users.
+                  Created an intuitive web interface using HTML and CSS,
+                  ensuring easy accessibility and user-friendliness for diverse
+                  users.
                 </li>
                 <li>
                   Enhanced interactivity and form validations with JavaScript to
@@ -102,9 +105,9 @@ function Experience() {
               Standard Service Level Agreements (SLAs).
             </li>
             <li>
-              Collaborated closely with cross-functional teams to address end-user
-              queries and concerns related to manufacturing change orders (MCOs)
-              and Change to Unreleased Product (CUP) processes.
+              Collaborated closely with cross-functional teams to address
+              end-user queries and concerns related to manufacturing change
+              orders (MCOs) and Change to Unreleased Product (CUP) processes.
             </li>
             <li>
               Conducted rigorous assessments of Engineering Change Requests to
@@ -127,13 +130,13 @@ function Experience() {
             </li>
             <li>
               Utilized Oracle Agile PLM system to track and document change
-              processes, contributing to accurate and comprehensive change history
-              records.
+              processes, contributing to accurate and comprehensive change
+              history records.
             </li>
             <li>
               Collaborated with stakeholders to provide training and support on
-              system functionalities, resulting in improved user understanding and
-              increased adoption.
+              system functionalities, resulting in improved user understanding
+              and increased adoption.
             </li>
           </ol>
         </div>
@@ -184,9 +187,9 @@ function Experience() {
               techniques.
             </li>
             <li>
-              Demonstrated competence in part modeling, drafting using NX-10, and
-              creating Method sketches, Product Drawings, and Technology sheets
-              using Autocad 2021.
+              Demonstrated competence in part modeling, drafting using NX-10,
+              and creating Method sketches, Product Drawings, and Technology
+              sheets using Autocad 2021.
             </li>
             <li>
               Proficient in interpreting industry-standard CAD drawings, basic
@@ -216,8 +219,8 @@ function Experience() {
               001) and Dye Penetrant Test (NDTS 015) for Inspection.
             </li>
             <li>
-              Proficient in measuring Rotor Blades with calipers, and gauges, and
-              performing Static Balance of Main Rotor Blades.
+              Proficient in measuring Rotor Blades with calipers, and gauges,
+              and performing Static Balance of Main Rotor Blades.
             </li>
           </ol>
         </div>

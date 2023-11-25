@@ -12,8 +12,13 @@
   align-items: center;
   justify-content: center;
   width: 100%; /* Take full width of the page */
-  overflow-y: hidden; /* Hide vertical scrollbar for larger screens */
+  overflow-y: hidden;
   padding: 0px 45px;
+}
+
+#tech-stack h2{
+  font-size: 2rem;
+  margin-top: 15px;
 }
 
 #tech-stack h2,

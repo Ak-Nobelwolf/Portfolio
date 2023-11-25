@@ -11,6 +11,8 @@
 .certificates h2 {
   text-align: center;
   color:white;
+  font-size: 2rem;
+  margin-top: 15px;
 }
 
 .certificate-cards {

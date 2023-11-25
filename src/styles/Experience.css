@@ -7,16 +7,16 @@
   text-align: center;
   margin-bottom: 20px;
   font-size: 2rem;
+  margin-top: 15px;
 }
 
 .experience {
   margin-bottom: 30px;
-  padding: 0 10px; /* Adjust padding for smaller screens */
+  padding: 0 10px;
 }
 
 #experience .experience-company {
-  /* padding-left: 10px;  */
-  margin-bottom: 15px; /* Adjust margin for smaller screens */
+  margin-bottom: 15px;
 }
 
 .experience-title {
@@ -28,13 +28,13 @@
   font-size: 1.2rem;
   color: #0a0a0a;
   text-align: right;
-  padding-right: 10px; /* Adjust padding for smaller screens */
-  margin-top: -20px; /* Adjust margin for smaller screens */
-  margin-bottom: -10px; /* Adjust margin for smaller screens */
+  padding-right: 10px;
+  margin-top: -20px;
+  margin-bottom: -10px;
 }
 
 .experience-description {
-  padding: 0 10px; /* Adjust padding for smaller screens */
+  padding: 0 10px;
 }
 
 .project-1,
@@ -42,14 +42,14 @@
 .division-1,
 .division-2,
 .division-3 {
-  padding-left: 10px; /* Adjust padding for smaller screens */
+  padding-left: 10px;
   padding-bottom: 20px;
 }
 
 .uniform-list,
 .non-uniform-list {
   margin-top: 5px;
-  margin-left: 10px; /* Adjust margin for smaller screens */
+  margin-left: 10px;
 }
 
 .experience-description h4 {
@@ -72,9 +72,9 @@
 .division-2 ol,
 .division-3 ol {
   padding: 0;
-  padding-left: 10px; /* Adjust padding for smaller screens */
+  padding-left: 10px;
   margin-top: 0px;
-  margin-bottom: 15px; /* Adjust margin for smaller screens */
+  margin-bottom: 15px;
 }
 
 .experience-description ol li {
