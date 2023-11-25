@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.6d27c418.css",
-    "main.js": "/Portfolio/static/js/main.2ba8bdbb.js",
+    "main.css": "/Portfolio/static/css/main.4735fa9b.css",
+    "main.js": "/Portfolio/static/js/main.14ba2c31.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/01- Introduction to Front-End Development.jpeg": "/Portfolio/static/media/01- Introduction to Front-End Development.910846f1e5c6b64e1ec9.jpeg",
     "static/media/02 - Programming with JavaScript.jpeg": "/Portfolio/static/media/02 - Programming with JavaScript.ee302b00d9846284e49d.jpeg",
@@ -28,12 +28,12 @@
     "static/media/css3.svg": "/Portfolio/static/media/css3.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/html5.svg": "/Portfolio/static/media/html5.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/visualstudio.svg": "/Portfolio/static/media/visualstudio.bf694f6526d78023011f1906cc8387cc.svg",
-    "main.6d27c418.css.map": "/Portfolio/static/css/main.6d27c418.css.map",
-    "main.2ba8bdbb.js.map": "/Portfolio/static/js/main.2ba8bdbb.js.map",
+    "main.4735fa9b.css.map": "/Portfolio/static/css/main.4735fa9b.css.map",
+    "main.14ba2c31.js.map": "/Portfolio/static/js/main.14ba2c31.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d27c418.css",
-    "static/js/main.2ba8bdbb.js"
+    "static/css/main.4735fa9b.css",
+    "static/js/main.14ba2c31.js"
   ]
 }
